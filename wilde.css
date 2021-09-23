@@ -35,3 +35,17 @@
     color:red;
 }
 
+th,td{
+    border: 3px solid;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    margin: 30px 55px 80px 100px;
+}
+
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: darkgray;
+}
